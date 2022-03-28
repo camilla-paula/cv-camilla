@@ -5,6 +5,12 @@ body,
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
 span {
   color: #03646b;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -20,18 +26,28 @@ h1 {
   color: white;
   height: 930px;
   width: 200px;
-  text-align: center;
-}
-section {
   display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.imagem {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid;
+  border-color: #13c6e6;
 }
 .conteudo {
   margin-left: 30px;
   text-transform: uppercase;
+  float: inline-end;
 }
 
 a {
   color: #13c6e6;
+  text-decoration: none;
 }
 a:hover {
   font-size: 15px;
@@ -45,4 +61,33 @@ a:hover {
 .eu {
   text-transform: none;
   padding: 30px 20px 0 0;
+}
+.fa {
+  padding: 15px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 35%;
+  margin: 20px 10px 10px 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+.fa-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background-color: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background-image: url(../images/fundo-insta.webp);
+  background-size: cover;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
 }
