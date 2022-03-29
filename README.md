@@ -1,5 +1,5 @@
 # cv-camilla
-Curriculo simplificado da área de programação.
+Currículo simplificado da área de programação.
 Foram usadas as linguagens HTML e CSS, as quais foram aprendidas no curso de full stack da Growdev.
 Outras linguagens não foram usadas pois ainda não foram ensinadas.
 ### São 3 páginas HTML e uma de style CSS
